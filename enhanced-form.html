@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Enhanced Form Example</title>
+    </head>
+    <body>
+        <section>
+            <h1>Lists</h1>
+            <h4>Definition List</h4>
+            <dl>
+                <dt>HTML</dt>
+                <dd>HyperText Markup Language, the standard markup language for documents designed to be displayed in a web browser.</dd>
+                <dt>CSS</dt>
+                <dd>Cascading Style Sheets, a style sheet language used for describing the presentation of a document written in HTML or XML.</dd>
+                <dt>JavaScript</dt>
+                <dd>A high-level, dynamic, untyped, and interpreted programming language commonly used in web development.</dd>
+            </dl>
+            <h4>Nested Lists</h4>
+            <ul>
+                <li> Sports
+                    <ul>
+                        <li>Soccer</li>
+                         <li>Cricket</li>
+                          <li>Netball</li>
+                    </ul>
+                </li>
+            </ul>
+        </section>
+        <section>
+            <h1>Media</h1>
+            <video controls width="600" height="400">
+                <source src="website-video.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+        </section>
+        <section>
+            <h1>Table</h1>
+            <table border="1" cellpadding="10" cellspacing="0">
+                <thead>
+                    <tr>
+                        <th>Name</th>
+                        <th>Position</th>
+                        <th>Team</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td>Pedri</td>
+                        <td>Midfielder</td>
+                        <td>FC barcelona</td>
+                    </tr>
+                    <tr>
+                        <td>Ansu Fati</td>
+                        <td>Forward</td>
+                        <td>AS Monaco</td>
+                    </tr>
+                    <tr>
+                        <td>John Stones</td>
+                        <td>Defender</td>
+                        <td>Manchester City</td>
+                    </tr>
+              </tbody>
+            </table>
+        </section>
+        <section>
+                <h1>Form</h1>
+                <form action="#" method="post">
+                    <label for="name">Name:</label>
+                    <input type="text" id="name" name="name" required>
+                    
+                    <label for="email">Email:</label>
+                    <input type="email" id="email" name="email" required>
+                    
+                    <label for="age">Age:</label>
+                    <input type="number" id="age" name="age" min="0" max="120">
+            </section>     
+    </body>
+</html>
